@@ -85,7 +85,7 @@ export function EventScheduler() {
       newDateTime.setMilliseconds(0);
       form.setValue('eventDateTime', newDateTime, { shouldValidate: true, shouldDirty: true });
     } else {
-      form.setValue('eventDateTime', undefined, { shouldValidate: true, shouldDirty: true });
+      form.setValue('eventDateTime', null as any, { shouldValidate: true, shouldDirty: true });
     }
   }, [calendarDates, eventHour, eventMinute, form]);
 
