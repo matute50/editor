@@ -108,5 +108,5 @@ const ArticleListItemComponent: React.FC<ArticleListItemProps> = ({
   );
 };
 
-export const ArticleListItem = _React.memo(ArticleListItemComponent);
+export const ArticleListItem = React.memo(ArticleListItemComponent);
 ArticleListItem.displayName = 'ArticleListItem';
