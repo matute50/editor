@@ -1,7 +1,7 @@
 
 "use client";
 
-import * as React from 'react'; // More specific import name
+import React from 'react';
 import type { NewsArticle } from '@/types';
 import Image from 'next/image';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
